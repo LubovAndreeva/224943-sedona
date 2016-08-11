@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Sedona</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="main-header">
+        <nav class="main-navigation">
+          <div class="logo">
+            <a href="#"><img src="img/index-logo.png" width="80" height="40" alt="logo"></a>
+          </div>
+          <ul>
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Фото и видео</a></li>
+            <li><a href="#">Карта штата</a></li>
+            <li><a href="#">Гостиницы</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <form action="url#">
+          <fieldset>
+            <legend>Инфраструктура</legend> 
+            <div class="selection-infrastructure">
+              <input id="swimpool" type="checkbox" checked/>
+              <label for="swimpool">Бассейн</label>
+              <input id="parking" type="checkbox" />
+              <label for="parking">Парковка</label>
+              <input id="wifi" type="checkbox" />
+              <label for="wifi">Wi-fi</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Тип жилья</legend> 
+            <div class="selection-type">
+              <input id="hotel" type="checkbox" checked/>
+              <label for="hotel">Гостиница</label>
+              <input id="motel" type="checkbox" checked/>
+              <label for="motel">Мотель</label>
+              <input id="apartments" type="checkbox" checked/>
+              <label for="apartments">Апартаменты</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Стоимость в сутки (р)</legend>
+            <input type="range">
+          </fieldset>
+          <input class="show-button" type="submit" value="Показать">
+        </form>
+        <div class="sort">
+          <div class="sort-item">
+            <b>Найдено:</b>
+            <span>3</span>
+          </div>
+          <div class="sort-inner">
+            <span>Сортировка:</span>
+            <ul class="sort-list">
+              <li><a class="sort-inner-link" href="#" title="По цене">По цене</a></li>
+              <li><a class="sort-inner-link" href="#" title="По типу">По типу</a></li>
+              <li><a class="sort-inner-link" href="#" title="По рейтингу">По рейтингу</a></li>
+            </ul>
+          </div>
+          <div class="sort-inner-up-down">
+            <a class="sort-inner-link" href="#" ></a> <!-- стрелка наверх -->
+            <a class="sort-inner-link-active" href="#" ></a> <!-- стрелка вниз -->
+          </div>
+        </div>
+        <section class="inner">
+          <div class="content">
+            <div class="picture">
+              <img src="img/hotel.png" width="40" height="40" alt="hotel">
+            </div> 
+            <div class="inner-desc">
+              <h3 class="hotel-name">Amara Resort & Spa</h3>
+              <div class="hotel-type">
+                <span class="type">Гостиница</span>
+                <span class="price">От 3 500 р.</span>
+              </div>
+              <div class="more-booking">
+                <a class="more" href="#" title="Подробнее">Подробнее</a>
+                <a class="booking" href="#" title="Забронировать">Забронировать</a>
+              </div>
+            </div>
+            <div class="rang"> 
+              <div class="stars" >*****
+              </div>
+              <div class="rating">
+                <span>Рейтинг</span>
+                <span class="rating-count">8.5</span>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="picture">
+              <img src="img/motel.png" width="40" height="40" alt="motel">
+            </div>
+            <div class="inner-desc">
+              <h3 class="hotel-name">Desert Quail Inn</h3>
+              <div class="hotel-type">
+                <span class="type">Мотель</span>
+                <span class="price">От 2 000 р.</span>
+              </div>
+              <div class="more-booking">
+                <a class="more" href="#" title="Подробнее">Подробнее</a>
+                <a class="booking" href="#" title="Забронировать">Забронировать</a>
+              </div>
+            </div>
+            <div class="rang"> 
+              <div class="stars" >**
+              </div>
+              <div class="rating">
+                <span>Рейтинг</span>
+                <span class="rating-count">8.9</span>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="picture">
+              <img src="img/apartments.png" width="40" height="40" alt="apartments">
+            </div>
+            <div class="inner-desc">
+              <h3 class="hotel-name">Villas at Poco Diablo</h3>
+              <div class="hotel-type">
+                <span class="type">Апартаменты</span>
+                <span class="price">От 4 000 р.</span>
+              </div>
+              <div class="more-booking">
+                <a class="more" href="#" title="Подробнее">Подробнее</a>
+                <a class="booking" href="#" title="Забронировать">Забронировать</a>
+              </div>
+            </div>
+            <div class="rang"> 
+              <div class="stars" >***
+              </div>
+              <div class="rating">
+                <span>Рейтинг</span>
+                <span class="rating-count">9.2</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="main-footer">
+          <section class="hashtag">
+             <a href="#">#visitsedona</a>
+          </section>
+          <section class="social">
+            <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+            <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+            <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+          </section>
+          <section class="link">
+            <a class="btn-link" href="https://htmlacademy.ru"><img src="img/logo.png" width="100" height="50" alt="logo"></a>
+          </section>
+      </footer>
+    </div>
+  </body>
+</html>
