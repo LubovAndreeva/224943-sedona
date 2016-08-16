@@ -1,9 +1,16 @@
 body {
 font-size: 14px;
 font-family: PTSans, MS Sans Serif, Geneva, sans-serif;
+text-transform: uppercase;
+text-align: center;
 line-height: 21px;
 color: #333333;
 font-weight: regular;
+background: #f2f2f2 no-repeat 50% 3px;
+background-size: 1200px auto;
+min-width: 1200px;
+margin: 0 auto;
+padding: 0;
 }
 
 h1 {
@@ -13,3 +20,240 @@ font-weight: bold;
 line-height: 26px;
 }
 
+.container {
+margin: 0 auto;
+}
+
+.main-header {
+display: table;
+width: 1200px;
+min-height: 58px;
+margin: 0 auto;
+background: #ffffff no-repeat;
+background-size: 1200px auto;
+}
+
+main {
+background: #f2f2f2 no-repeat; 	
+}
+
+.main-navigation {
+position:absolute;
+padding: 0px 73px;
+width: 1014px;
+
+} 
+
+.main-menu {
+list-style:none;
+}
+
+.main-menu li{
+display: inline-block;
+}
+
+.logo {
+width: 138px;
+min-height: 70px;
+margin: 0 auto; 
+}
+
+
+.headline {
+width: 1200px;
+margin: 0 auto;
+height: 525px;
+}
+
+
+.desc {
+width: 1200px;
+margin: 0 auto;
+background: #ffffff no-repeat;
+
+}
+.pre-desc {
+width: 576px;
+margin: 0 auto;
+padding: 50px 0;
+}
+
+
+
+.content {
+min-height: 255px;
+width: 1200px;
+margin: 0 auto;
+}
+
+.content-text {
+height: 139px;
+float: left;
+width: 310px;
+background: #81b3d2 no-repeat;
+padding: 60px 45px 56px 45px;
+}
+
+.content-pic {
+float: right;
+width: 800px;
+height: 255px;
+}
+
+
+.features {
+min-height: 330px;
+width: 1200px;
+margin: 0 auto;
+}
+
+.features-item {
+float: left;
+width: 304px;
+height: 80px;
+padding: 163px 48px 87px 48px;
+}
+
+.features-item: last-child {
+margin-right: 0;
+}
+
+
+.capability {
+min-height: 250px;
+width: 1200px;
+margin: 0 auto;
+background: #f2f2f2 no-repeat;
+}
+
+.capability-item {
+float: left;
+width: 202px;
+height: 143px;
+padding: 50px 100px 63px 98px;
+}
+
+.capability-item: last-child {
+margin-right: 0;
+}
+
+
+.search-content {
+min-height: 256px;
+width: 1200px;
+margin: 0 auto;
+}
+
+/*btn-search стили формы */
+
+.map {
+height: 593px;
+width: 1200px;
+margin: 0 auto;
+}
+
+.main-footer {
+
+height: 120px;
+width: 1200px;
+margin: 0 auto;
+background: #ffffff no-repeat;
+background-size: 1200px auto;
+}
+
+.hashtag {
+float: left;
+width: 140px;
+height: 20px;
+padding: 50px 130px;
+}
+
+.social {
+float: left;
+width: 150px;
+height: 50px;
+padding: 35px 125px;
+}
+
+.link: last-child {
+height: 50px;
+width: 200px;
+margin-right: 0;
+padding: 35px 100px;
+}
+
+
+/* inner */
+
+form {
+width: 1200px;
+margin: 0 auto;
+background: url("/img/form-inner.jpg") no-repeat; /* не пойму как оформлять форму */
+}
+
+fieldset {
+float: left;
+width: 300px;
+}
+fieldset: last-child {
+float: right;
+margin-right: 0;
+}
+
+
+.sort {
+clear: both;
+width: 1200px;
+margin: 0 auto;
+background: #ffffff no-repeat; 
+}
+
+.sort-list li{
+display: inline-block;
+width: 1200px;
+}
+
+.sort-item {
+float: left;
+}
+
+.sort-inner {
+float: left;
+list-style:none;
+}
+
+.sort-inner-up-down {
+float: right;
+}
+
+.inner {
+margin: 0 auto;	
+background: #ffffff no-repeat; 
+background-size: 1200px auto;
+}
+
+.content {
+width: 1200px;
+height: 150px;
+}
+.picture {
+float: left;
+margin-right: 25px;
+width: 135px;
+height: 150px;
+
+}
+.inner-desc {
+float: left;
+margin-right: 390px;
+width: 260px;
+height: 150px;
+
+}
+
+.rang {
+float: right;
+width: 260px;
+height: 150px;
+margin-left: 130px;
+}
