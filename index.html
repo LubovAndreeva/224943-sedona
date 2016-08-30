@@ -15,10 +15,10 @@
             <img src="img/logo.png" width="138" height="70" alt="logo">
           </div>
           <ul>
-            <li><a href="#">Информация</a></li>
+            <li><a href="#" class="main-menu active">Информация</a></li>
             <li><a href="#">Фото и видео</a></li>
             <li><a href="#">Карта штата</a></li>
-            <li><a href="#">Гостиницы</a></li>
+            <li><a href="../inner.html">Гостиницы</a></li>
           </ul>
         </nav>
       </header>
@@ -33,8 +33,8 @@
           </div>
           <div class="content clearfix">
             <div class="content-text">
-              <h3>Настоящий городок</h3>
-              <span class="content-number">&#8212; №1 &#8212; </span>
+              <h3>Настоящий<br>городок</h3>
+              <span>&#8212; №1 &#8212; </span>
               <p>Седонa - не аттракцион для туристов, там течет своя жизнь</p>
             </div>
             <div class="content-pic">
@@ -55,14 +55,16 @@
               <p>Не только китайского, но и местного производства!</p>
             </div>
           </section>
-          <div class="content-other clearfix">
-            <div class="content-other-pic">
+
+          <div class="content clearfix">
+            <div class="content-pic-pic">
               <img src="img/content-pic-sec.jpg" width="800" height="255" alt="pic">
             </div>
-            <div class="content-other-text">
-              <h3>Там есть мост Дьявола</h3>
-              <span class="content-number">&#8212; №2 &#8212;</span>
-              <p>Да, по нему можно пройти, если конечно вы осмелитесь</p>
+            <div class="content-text-text">
+
+              <h3>Там есть<br>мост Дьявола</h3>
+              <span>&#8212; №2 &#8212;</span>
+              <p>Да, по нему можно пройти! Если конечно <br>вы осмелитесь</p>
             </div>
           </div>
           <section class="capability clearfix">
@@ -92,33 +94,38 @@
               <div class="all-form">
                 <div class="arrival">
                   <label for="arrival">Дата заезда:</label>
-                  <input type="text" name="arrival" id="arrival" placeholder="24 апреля 2016">
-                  <span class="calendar"></span> <!-- здесь будет календарик -->
+
+                  <input class="icon-calendar" type="text" name="arrival" id="arrival" placeholder="24 апреля 2016">
+                  
                 </div>
                 <div class="departure">
                   <label for="departure">Дата выезда:</label>
-                  <input type="text" name="departure" id="departure" placeholder="4 июля 2016">
-                  <span class="calendar"></span> <!-- здесь будет календарик -->
+                  <input class="icon-calendar" type="text" name="departure" id="departure" placeholder="4 июля 2016">
+                  
                 </div>
                 <div class="adult-child">
                   <div class="adult">
                     <label for="adult-input-numb">Взрослые:</label>
                     <div class="counter">
-                      <button type="submit">-</button> <!-- минус -->
+
+                      <button class="ic-minus" type="submit" ><span class="icon-minus"></span></button> <!-- минус -->
                       <input type="text" value="2" name="input-numb" id="adult-input-numb">
-                      <button type="submit">+</button> <!-- плюс -->
+                      <button class="ic-plus" type="submit" ><span class="icon-plus"></span></button> <!-- плюс -->
+
                     </div>
                   </div>
                   <div class="child">
                     <label for="child-input-numb">Дети:</label>
                     <div class="counter">
-                      <button type="submit">-</button> <!-- минус -->
+
+                      <button class="ic-minus" type="submit"><span class="icon-minus"></span></button> <!-- минус -->
                       <input type="text" value="0" name="input-numb" id="child-input-numb">
-                      <button type="submit">+</button> <!-- плюс -->
+                      <button class="ic-plus" type="submit"><span class="icon-plus"></span></button> <!-- плюс -->
+
                     </div>
-                    <input class="search-button" type="submit" value="Найти">
                   </div>
                 </div>
+                <input class="search-button" type="submit" value="Найти">
               </div>
             </form>
           </div>
@@ -132,13 +139,15 @@
           <a href="#">#visitsedona</a>
         </div>
         <div class="social">
-          <a class="social-btn" href="#">t<span class="icon-twitter"></span></a>
-          <a class="social-btn" href="#">f<span class="icon-facebook"></span></a>
-          <a class="social-btn" href="#">y<span class="icon-youtube"></span></a>
+
+          <a class="social-btn social-t" href="#">t</a>
+          <a class="social-btn social-f" href="#">f</a>
+          <a class="social-btn social-y" href="#">y</a>
+
         </div>
         <div class="link">
           <span>Website by</span>
-          <a class="btn-link" href="https://htmlacademy.ru"><img src="img/logo-academy.png" width="113" height="39" alt="logo"></a>
+          <a class="btn-link btn-link-logo-academy" href="https://htmlacademy.ru"></a>
         </div>
       </footer>
     </div>

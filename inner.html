@@ -15,10 +15,10 @@
             <a href="#"><img src="img/logo.png" width="138" height="70" alt="logo"></a>
           </div>
           <ul class="main-menu">
-            <li><a href="#">Информация</a></li>
+            <li><a href="../index.html">Информация</a></li>
             <li><a href="#">Фото и видео</a></li>
             <li><a href="#">Карта штата</a></li>
-            <li><a href="#">Гостиницы</a></li>
+            <li><a href="#" class="main-menu active">Гостиницы</a></li>
           </ul>
         </nav>
       </header>
@@ -65,25 +65,26 @@
             </fieldset>
           </form>
         </div>
-        <div class="sort clearfix">
-          <div class="sort-item ">
-            <b>Найдено:</b>
-            <span>3</span>
-          </div>
-          <div class="sort-inner">
-            <span>Сортировка:</span>
-            <ul>
-              <li><a class="sort-inner-link active" href="#" title="По цене">По цене</a></li>
-              <li><a class="sort-inner-link" href="#" title="По типу">По типу</a></li>
-              <li><a class="sort-inner-link" href="#" title="По рейтингу">По рейтингу</a></li>
-            </ul>
-          </div>
-          <div class="sort-inner-up-down">
-            <a href="#" ><span class="icon-up-dir"></span></a> <!-- стрелка наверх -->
-            <a href="#" ><span class="icon-down-dir"></span></a> <!-- стрелка вниз -->
-          </div>
-        </div>
         <section class="inner">
+          <div class="sort clearfix">
+            <div class="sort-item ">
+              <b>Найдено:</b>
+              <span>3</span>
+            </div>
+            <div class="sort-inner">
+              <span class="sort-inner-sort">Сортировка:</span>
+              <ul>
+                <li><a class="sort-inner-link active" href="#" title="По цене">По цене</a></li>
+                <li><a class="sort-inner-link" href="#" title="По типу">По типу</a></li>
+                <li><a class="sort-inner-link" href="#" title="По рейтингу">По рейтингу</a></li>
+              </ul>
+            </div>
+            <div class="sort-inner-up-down">
+              <a href="#" >&#9650;</a><!-- стрелка наверх -->
+              <a href="#" class="active">&#9660;</a><!-- стрелка вниз -->
+
+            </div>
+          </div>
           <div class="inner-content clearfix">
             <div class="inner-picture">
               <img src="img/hotel.jpg" width="135" height="90" alt="hotel">
@@ -95,7 +96,7 @@
                 <a class="btn-more" href="#" title="Подробнее">Подробнее</a>
               </div>
               <div class="price-booking">
-                <span class="price">От 3 500 р.</span>
+                <span class="price">От 3500 р.</span>
                 <a class="btn-booking" href="#" title="Забронировать">Забронировать</a>
               </div>
             </div>
@@ -120,11 +121,11 @@
               <h3 class="hotel-name">Desert Quail Inn</h3>
               <div class="hotel-type">
                 <span class="type">Мотель</span>
-                <a class="more" href="#" title="Подробнее">Подробнее</a>
+                <a class="btn-more" href="#" title="Подробнее">Подробнее</a>
               </div>
               <div class="price-booking">
-                <span class="price">От 2 000 р.</span>
-                <a class="booking" href="#" title="Забронировать">Забронировать</a>
+                <span class="price">От 2000 р.</span>
+                <a class="btn-booking" href="#" title="Забронировать">Забронировать</a>
               </div>
             </div>
             <div class="rang"> 
@@ -146,11 +147,11 @@
               <h3 class="hotel-name">Villas at Poco Diablo</h3>
               <div class="hotel-type">
                 <span class="type">Апартаменты</span>
-                <a class="more" href="#" title="Подробнее">Подробнее</a>
+                <a class="btn-more" href="#" title="Подробнее">Подробнее</a>
               </div>
               <div class="price-booking">
-                <span class="price">От 4 000 р.</span>
-                <a class="booking" href="#" title="Забронировать">Забронировать</a>
+                <span class="price">От 4000 р.</span>
+                <a class="btn-booking" href="#" title="Забронировать">Забронировать</a>
               </div>
             </div>
             <div class="rang"> 
@@ -167,18 +168,20 @@
           </div>
         </section>
       </main>
-      <footer class="main-footer second clearfix">
+      <footer class="main-footer footer-inner clearfix">
           <div class="hashtag">
              <a href="#">#visitsedona</a>
           </div>
           <div class="social">
-            <a class="social-btn" href="#">t<span class="icon-twitter"></span></a>
-            <a class="social-btn" href="#">f<span class="icon-facebook"></span></a>
-            <a class="social-btn" href="#">y<span class="icon-youtube"></span></a>
+
+            <a class="social-btn social-t" href="#">t</a>
+            <a class="social-btn social-f" href="#">f</a>
+            <a class="social-btn social-y" href="#">y</a>
           </div>
           <div class="link">
             <span>Website by</span>
-            <a class="logo-link" href="https://htmlacademy.ru"><img src="img/logo-academy.png" width="113" height="39" alt="logo"></a>
+            <a class="btn-link btn-link-logo-academy" href="https://htmlacademy.ru"></a>
+
           </div>
       </footer>
     </div>
