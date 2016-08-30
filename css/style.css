@@ -11,11 +11,7 @@ body {
  text-align: center;
  line-height: 21px;
  color: #333333;
-<<<<<<< HEAD
  font-weight: normal;
-=======
- font-weight: regular;
->>>>>>> origin/master
  margin: 0;
  padding: 0;
  background-color: #f2f2f2;
@@ -63,7 +59,7 @@ src: url("../fonts/symbols-sedona.woff") format("woff"),
   speak: none;
 }
 
-<<<<<<< HEAD
+
 
 .icon-star::before { content: "\2605"; } /* "★" */
 .icon-check-off::before { content: "\2610"; } /* "☐" */
@@ -72,38 +68,19 @@ src: url("../fonts/symbols-sedona.woff") format("woff"),
 .icon-minus::before { content: "\e802"; } /* "" */
 
 
-
-
-=======
-.icon-facebook::before { content: "\66"; } /* "f" */
-.icon-twitter::before { content: "\74"; } /* "t" */
-.icon-up-dir::before { content: "\25b2"; } /* "▲" */
-.icon-down-dir::before { content: "\25bc"; } /* "▼" */
-.icon-star::before { content: "\2605"; } /* "★" */
-.icon-check-off::before { content: "\2610"; } /* "☐" */
-.icon-check-on::before { content: "\2611"; } /* "☑" */
-.icon-calendar::before { content: "\e800"; } /* "" */
-.icon-plus::before { content: "\e801"; } /* "" */
-.icon-minus::before { content: "\e802"; } /* "" */
-.icon-youtube::before { content: "\f39e"; } /* "" */
-
-
-
->>>>>>> origin/master
 .container {
  width: 1200px;
  margin: 0 auto;
  background-color: #f2f2f2;
  box-shadow: 0 0 10px 5px rgba(0, 1, 1, 0.2); 
-<<<<<<< HEAD
+
  position: relative;
-=======
->>>>>>> origin/master
+
 }
 
 .main-header {
  position: relative;
-<<<<<<< HEAD
+
 }
 .main-navigation {
  background: #ffffff;
@@ -111,13 +88,7 @@ src: url("../fonts/symbols-sedona.woff") format("woff"),
  padding-bottom: 15px;
  margin: 0 auto;
 }
-=======
-}
-.main-navigation {
- background: #ffffff;
- padding: 15px 73px;
-}
->>>>>>> origin/master
+
 .main-navigation ul {
  font-size: 0;
  padding: 0;
@@ -128,11 +99,8 @@ src: url("../fonts/symbols-sedona.woff") format("woff"),
  display: inline-block;
  list-style-type: none;
  font-size: 14px;
-<<<<<<< HEAD
+
  text-align: center;
-=======
- text-align: left;
->>>>>>> origin/master
  font-weight: bold;
  line-height: 26px;
 
@@ -140,22 +108,13 @@ src: url("../fonts/symbols-sedona.woff") format("woff"),
 .main-navigation li:nth-child(2) {
  margin-right: 20%;
  text-align: center;
-<<<<<<< HEAD
+
 }
 .main-navigation li:nth-child(3) {
 }
 .main-navigation li:nth-child(4) {
 padding-left: 18px;
-=======
- padding-right: 52px;
-}
-.main-navigation li:nth-child(3) {
-  padding-right: 30px;
- text-align: right;
-}
-.main-navigation li:nth-child(4) {
- text-align: right;
->>>>>>> origin/master
+
 }
 .main-navigation .logo {
  position: absolute;
@@ -171,7 +130,7 @@ padding-left: 18px;
  color: #000000;
 }
 .main-navigation a:hover {
-<<<<<<< HEAD
+
   color: #81b3d2;
 }
 .main-navigation a:active {
@@ -185,21 +144,6 @@ padding-left: 18px;
 }
 .main-menu.active:active {
   color: #d6d0cc;
-=======
-color: #81b3d2;
-}
-.main-navigation a:active {
-color: #b7b7b7;
-}
-.main-menu.active {
-color: #9b8d84;
-}
-.main-menu.active:hover {
-color: #604e43;
-}
-.main-menu.active:active {
-color: #d6d0cc;
->>>>>>> origin/master
 }
 
 .clearfix::after {
@@ -211,12 +155,7 @@ color: #d6d0cc;
 .headline {
  width: 1200px;
  margin: 0 auto;
-<<<<<<< HEAD
  background-color: #e2eff7;
-
-=======
- background: #e2eff7;
->>>>>>> origin/master
 }
 .headline img {
  vertical-align: bottom;
@@ -232,13 +171,7 @@ color: #d6d0cc;
 .pre-desc {
  width: 576px; 
  margin: 0 auto;
-<<<<<<< HEAD
  padding: 56px 0 53px 0;
-
-=======
- padding: 56px 0 54px 0;
- 
->>>>>>> origin/master
 }
 .pre-desc h1 {
  margin: 0 auto;
@@ -258,32 +191,20 @@ color: #d6d0cc;
 .content-text {
  float: left;
  width: 400px;
-<<<<<<< HEAD
  padding: 53px 50px 53px 50px; 
  background: #81b3d2;
  color: #ffffff;
 }
 .content-text h3 {
-=======
- padding: 55px 30px 50px 30px; 
- background: #81b3d2;
- color: #ffffff;
-}
-.content-text h3,
-.content-other-text h3 {
->>>>>>> origin/master
+
  line-height: 21px;
  font-weight: bold;
  font-size: 21px;
  margin: 0 auto;
  padding-bottom: 25px;
 }
-<<<<<<< HEAD
+
 .content-text p {
-=======
-.content-text p,
-.content-other-text p {
->>>>>>> origin/master
  margin: 0 auto;
  padding-top: 20px;
 }
@@ -292,32 +213,21 @@ color: #d6d0cc;
  width: 800px;
  height: 256px;
 }
-<<<<<<< HEAD
+
 .content-pic-pic {
-=======
-.content-other-pic {
->>>>>>> origin/master
  float: left;
  width: 800px;
  height: 256px;
 }
-<<<<<<< HEAD
+
 .content-text-text {
  float: right;
  width: 400px;
  padding: 54px 30px; 
-=======
-.content-other-text {
- float: right;
- width: 400px;
- padding: 55px 30px 50px 30px; 
->>>>>>> origin/master
  background: #81b3d2;
  color: #ffffff;
 }
 
-
-<<<<<<< HEAD
 .content-text-text h3 {
  line-height: 21px;
  font-weight: bold;
@@ -335,12 +245,7 @@ color: #d6d0cc;
  width: 1200px;
  margin: 0 auto;
 }
-=======
-.features {
- width: 1200px;
- margin: 0 auto;
-}
->>>>>>> origin/master
+
 .features-item {
  float: left;
  width: 400px;
@@ -359,11 +264,7 @@ color: #d6d0cc;
  margin: 0;
 }
 .features-item p {
-<<<<<<< HEAD
 padding-top: 24px;
-=======
-padding-top: 26px;
->>>>>>> origin/master
 margin: 0;
 }
 
@@ -434,31 +335,13 @@ margin: 0;
 
 .search-content {
  margin: 0 auto;
-<<<<<<< HEAD
  padding-top: 52px;
-=======
- padding-top: 55px;
 }
 .search-content h5 {
  font-size: 30px;
  line-height: 24px;
  font-weight: bold;
  margin: 0;
-
-}
-.search-content p {
- line-height: 24px;
- color: #333333;
- margin: 30px 0 50px 0;
->>>>>>> origin/master
-}
-.search-content h5 {
- font-size: 30px;
- line-height: 24px;
- font-weight: bold;
- margin: 0;
-
-<<<<<<< HEAD
 }
 .search-content p {
  line-height: 24px;
@@ -467,9 +350,7 @@ margin: 0;
 }
 
 
-=======
 
->>>>>>> origin/master
 .btn-search {
  background: #766357;
  clear: both;
@@ -500,7 +381,6 @@ margin: 0;
 }
 
 .arrival { /*заезд*/
-<<<<<<< HEAD
  margin: 54px 56px 28px 57px;
  text-align: left;
   outline: 0;
@@ -546,19 +426,6 @@ margin: 0;
  background-color: #f2f2f2; 
  border: none;
  padding: 6px 20px;
-=======
- margin: 50px 50px 25px 50px;
- text-align: left;
-}
-
-.arrival input,
-.departure input {
- margin: 0 0 0 20px;
- width: 345px;
- background-color: #f2f2f2; 
- border: none;
- padding: 12px 13px;
->>>>>>> origin/master
  line-height: 26px;
  font-weight: bold;
  color: #000000;
@@ -858,197 +725,7 @@ background-position: -5px -5px;
 .btn-link-logo-academy:active {
 background-color: url("../img/logo-academy.png");
 background-position: -128px -5px;
-=======
-}
-.arrival input:hover,
-.departure input:hover {
- background-color: #ebebeb; 
- border: none;
-}
-.arrival input:active,
-.departure input:active {
- background-color: #ffffff; 
- border: 2px solid #e5e5e5;
-}
 
-
-.departure { /*выезд*/
- margin: 0px 50px 25px 50px;
- text-align: left;
-}
-.departure input { /*выезд*/
- margin: 0 0 0 16px;
-}
-
-.adult-child {
- margin: 0px 50px;
-position: relative;
-}
-
-
-.adult {
-float: left;
-
-width: 230px;
-
-}
-
-.child {
-float: right;
-
-margin-right: 0;
-}
-.child label,
-.adult label,
-.counter {
-display: inline-block;
-vertical-align: top;
-text-align: left;
- line-height: 26px;
- font-weight: bold;
- margin-right: 40px;
-
-}
-.counter input{
-	 height: 35px;
-	width: 115px;
-	background-color: #f2f2f2;
-	border: none;
-	 line-height: 26px;
- font-weight: bold;
- color: #000000;
- text-align: center;
-}
-
-
-
-.counter button{
- position: absolute;
- background-color: #f2f2f2;
- font-size: 0;
- text-decoration: none;
- text-align: center;
- width: 38px;
- height: 35px;
- border: none;
- margin: 0;
-}
-
-
-.counter span {
- font-size: 14px;
- color: #a9a9a9;
- line-height: 26px;
-}
-
-.icon-plus.icon-adult {
-
-}
-
-.icon-minus.icon-adult {
-
-}
-
-
-
-
-.search-button {
- background: #81b3d2;
- width: 460px;
- margin: 55px 50px;
- padding: 20px 30px;
- color: #ffffff;
- font-size: 21px;
- line-height: 26px;
- font-weight: bold;
- text-transform: uppercase;
- border: none;
-}
-.search-button input {
- left: 0; 
- right: 0;
- margin: 0 auto;
- position: absolute;
-}
-.search-button:hover {
- background: #669ec0;
-}
-.search-button:active {
- background: #5496bd;
- color: #88b6d1;
-}
-
-
-.map {
- height: 593px;
-}
-.main-footer.footer-inner {  
-position: relative;
-
-}
-.main-footer {  /*без абсолюта, главная стр*/
- width: 1200px;
- min-height: 120px;
- margin: 0 auto;
- background: #ffffff;
- position: absolute;
- opacity: 0.9;
-}
-
-.hashtag {
- float: left;
- width: 400px;
- margin: 0 auto;
- padding-top: 45px;
-}
-.hashtag a {
- font-size: 21px;
- line-height: 26px;
- text-decoration: none;
- color: #000000;
-}
-.social {
- float: left;
- width: 400px;
- padding-top: 35px;
-}
-
-.social-btn {
- display: inline-block;
- vertical-align: top;
- width: 48px;
- height: 48px;
- margin: 0;
- background-color: #81b3d2;
- font-size: 0;
- text-decoration: none;
- text-align: center;
-}
-
-.social-btn:hover {
- background: #669ec0;
-}
-.social-btn:active {
- background: #5496bd;
-}
-
-.social-btn span {
- font-size: 19px;
- color: #ffffff;
- line-height: 48px;
-}
-.social-btn span:hover {
- background: #669ec0;
-}
-.social-btn span:active {
- background: #88b6d1;
-}
-
-.link: last-child { 
- float: right;
- width: 400px;
- margin-right: 0;
->>>>>>> origin/master
 }
 
 .link span {
@@ -1076,18 +753,12 @@ background-color: #bdbbbc;
 
 /* inner */
 
-<<<<<<< HEAD
-.forms { 
- min-height: 220px;
- color: #ffffff;
- background-color: #5e88b0;
-=======
 
 .forms { 
  min-height: 220px;
  color: #ffffff;
- background-color: #ffffff;
->>>>>>> origin/master
+ background-color: #5e88b0;
+
  background-image: url("../img/form-inner.jpg");
  width: 1200px;
  margin: 0 auto;
@@ -1104,11 +775,9 @@ background-color: #bdbbbc;
  float: left;
  width: 488px;
  margin-top: 7px;
-<<<<<<< HEAD
+
  padding-left: 15px;
-=======
- padding-left: 12px;
->>>>>>> origin/master
+
 }
 
 .form-cost: last-child { 
@@ -1119,10 +788,6 @@ background-color: #bdbbbc;
 }
 
 fieldset { 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
  border:0 none;
  padding: 0;
  text-align: left;
@@ -1137,10 +802,6 @@ legend {
  margin-bottom: 27px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
 .form-cost {
  width: 325px;
  color: #ffffff;
@@ -1159,7 +820,6 @@ legend {
   border: 2px solid #ffffff;
   border-radius: 2px;
   margin-left: 8px;
-<<<<<<< HEAD
   margin-bottom: 20px;
 }
 
@@ -1238,85 +898,9 @@ legend {
   left: 0;
 }
 
-=======
-  margin-bottom: 19px;
-}
 
-.price-control::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 2px;
-  height: 22px;
-  background: #ffffff;
-  transform: translate(-50%, -50%);
-}
 
-.price-control label {
-  display: inline-block;
-  font-size: 14px;
-  line-height: 21px;
-  vertical-align: middle;
-  cursor: pointer;
-}
 
-.price-control .min-price,
-.price-control .max-price {
-
-  width: 153px;
-  padding-left: 62px;
-  padding-top: 4px;
-}
-
-.price-control input {
-  width: 50px;
-  margin: 0;
-  color: inherit;
-  font: inherit;
-  background: none;
-  border: none;
-  outline: none;
-}
-
-.range-control {
-  position: relative;
-  margin-bottom: 32px;
-   margin-left: 8px;
-}
-
-.range-control .scale {
-  height: 2px;
-  background: rgba(255, 255, 255, 0.3);
-}
-
-.range-control .bar {
-  width: 80%;
-  height: 2px;
-  background: #ffffff;
-}
-
-.range-toggle {
-  position: absolute;
-  top: -9px;
-  width: 4px;
-  height: 4px;
-  background: #ababab;
-  border: 8px solid #ffffff;
-  border-radius: 50%;
-  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
-  cursor: pointer;
-}
-
-.range-toggle:hover {
-  background: #1c4f80;
-}
-
-.range-toggle-min {
-  left: 0;
-}
-
->>>>>>> origin/master
 .range-toggle-max {
   left: 80%;
 }
@@ -1342,25 +926,15 @@ legend {
 }
 
 
-
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
 .inner {
  width: 1200px;
  margin: 0 auto;	
  background: #ffffff; 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
 }
 
 .sort { 
  margin: 0 auto;
  background: #ffffff;
-<<<<<<< HEAD
  padding: 25px 73px 33px 73px; 
  text-align: left;
  border-bottom: 1px solid #e5e5e5;
@@ -1530,188 +1104,7 @@ text-align: right;
 .btn-more:hover { /*Подробнее кнопки*/
  background: #669ec0;
 }
-=======
- padding: 26px 73px 30px 73px; 
- text-align: left;
-border-bottom: 1px solid #e5e5e5;
-}
 
-
-
-
-.sort-item { /*найдено*/
- float: left;
- width: 140px;
- text-align: left;
- font-size: 21px;
- font-weight: bold;
- line-height: 26px;
-}
-
-.sort-inner { /*сортировка*/
- float: left;
- width: 800px;
- padding: 4px 90px 0 25px;
- font-size: 12px;
- line-height: 18px;
- display: inline-block;
- vertical-align: middle;
-}
-.sort-inner-sort {
-display: inline-block;
- vertical-align: middle;
-
-}
-.sort-inner-link.active{
-	color: #81b3d2;
-	border-bottom: none;
-}
-.sort-inner-link {
-border-bottom: 1px dashed #81b3d2;
-color: #b2b2b2;
-}
-.sort-inner-link:hover {
-border-bottom: 1px dashed #81b3d2;
-color: #81b3d2;
-}
-.sort-inner-link:active {
-border-bottom: none;
-color: #000000;
-}
-
-
-
-.sort-inner ul {
- vertical-align: middle;
- display: inline-block;
- padding: 0;
- margin: 0;
- padding-left: 35px;
-
-}
-.sort-inner li {
- padding-right: 30px;
- vertical-align: middle;
- display: inline-block;
- list-style-type: none;
- font-size: 12px;
- line-height: 18px;
-
-}
-.sort-inner a {
- list-style-type: none;
- text-decoration: none;
- 
-}
-.sort-inner-up-down { /*стрелки */
-display: inline-block;
-vertical-align: top;
-width: 114px;
-margin: 0 auto;
-font-size: 0;
-text-align: right;
-}
-
-.sort-inner-up-down span {
-
-}
-
-.sort-inner-up-down a {
- text-decoration: none;
- height: 11px;
- width: 11px;
-  font-size: 23px;
- color: #cccccc;
- line-height: 20px;
- text-decoration: none;
- height: 11px;
- width: 11px;
-}
-.sort-inner-up-down a:hover {
- color: #000000;
-}
-.sort-inner-up-down a:active {
- color: #81b3d2;
-}
-..sort-inner-up-down.active a:active {
- color: #81b3d2;
-}
-
-
-
-
-.inner-content {
-
-padding: 24px 73px 30px 73px; 
- border-bottom: 1px solid #e5e5e5;
-
-}
-.inner-content: last-child { 
-
- border-bottom: none;
-}
-.inner-picture {
- float: left;
- width: 135px;
- padding-top: 5px;
-}
-.inner-desc { 
- float: left;
- width: 650px;
- padding: 0px 150px 0px 29px;
- text-align:left;
-}
-
-.hotel-name { /*имя отеля*/
- margin: 0;
- padding: 0;
- line-height: 26px;
- font-weight: bold;
- font-size: 21px;
-}
-.hotel-name:hover { 
-color: #81b3d2;
-}
-.hotel-name:active { 
-color: #b2b2b2;
-}
-
-.hotel-type { /*гостиница/подробнее*/
- float: left;
- width: 115px;
- padding: 0px 10px 0px 0;
- text-align:left;
-}
-.price-booking { /*цена/забронировать*/
- float: left;
- width: 115px;
- padding: 0px 10px 0px 0;
- text-align:left;
-}
-.type,
-.price {  /*гостиница цена */
- margin: 5px 0 19px 0;
- display: block;
- color: #333333;
-}
-
-
-
-.btn-more { /*Подробнее кнопки*/
-  width: 100%
- display: block;
- background: #81b3d2;
- padding: 5px 16px;
- text-decoration: none;
- color: #ffffff;
- font-weight: bold;
- font-size: 14px;
- margin-top: 20px;
-}
-.btn-more:hover { /*Подробнее кнопки*/
- background: #669ec0;
-}
->>>>>>> origin/master
 .btn-more:active { /*Подробнее кнопки*/
  background: #5496bd;
  color: #84b4d0;
@@ -1719,11 +1112,7 @@ color: #b2b2b2;
 
 
 .btn-booking { /*забронировать кнопки*/
-<<<<<<< HEAD
  width: 100%
-=======
-  width: 100%
->>>>>>> origin/master
  display: block;
  background: #766357;
  padding: 5px 16px;
@@ -1753,10 +1142,7 @@ color: #b2b2b2;
 
 .rang .stars { 
  text-align:right;
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/master
 }
 
 .rating {
@@ -1764,11 +1150,7 @@ color: #b2b2b2;
  width: 110px;
  text-align: center;
  background: #f2f2f2;
-<<<<<<< HEAD
  padding: 4px 10px ;
-=======
- padding: 5px 10px ;
->>>>>>> origin/master
  margin-top: 40px; padding-top: 2px;
 }
 
@@ -1792,11 +1174,9 @@ color: #b2b2b2;
 }
 
 
-<<<<<<< HEAD
+
 /*стили и состояния для формы сверху в иннере*/
-=======
-/*стили для формы сверху в иннере*/
->>>>>>> origin/master
+
 input[type="checkbox"] {
  display:none;
 }
