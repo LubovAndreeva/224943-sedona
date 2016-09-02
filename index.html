@@ -15,10 +15,10 @@
             <img src="img/logo.png" width="138" height="70" alt="logo">
           </div>
           <ul>
-            <li><a href="#" class="main-menu active">Информация</a></li>
+            <li><a href="#">Информация</a></li>
             <li><a href="#">Фото и видео</a></li>
             <li><a href="#">Карта штата</a></li>
-            <li><a href="../inner.html">Гостиницы</a></li>
+            <li><a href="inner.html">Гостиницы</a></li>
           </ul>
         </nav>
       </header>
@@ -57,11 +57,10 @@
           </section>
 
           <div class="content clearfix">
-            <div class="content-pic-pic">
+            <div class="content-pic pic">
               <img src="img/content-pic-sec.jpg" width="800" height="255" alt="pic">
             </div>
             <div class="content-text-text">
-
               <h3>Там есть<br>мост Дьявола</h3>
               <span>&#8212; №2 &#8212;</span>
               <p>Да, по нему можно пройти! Если конечно <br>вы осмелитесь</p>
@@ -88,49 +87,44 @@
             <h5>Заинтересовались?</h5>
             <p>Укажите предполагаемые даты поездки, <br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
             <div class="btn-search">
-              <a href="#">Поиск гостиницы в Седоне</a>
-            </div>
-            <form action="#" method="get">
-              <div class="all-form">
-                <div class="arrival">
-                  <label for="arrival">Дата заезда:</label>
-
-                  <input class="icon-calendar" type="text" name="arrival" id="arrival" placeholder="24 апреля 2016">
-                  
-                </div>
-                <div class="departure">
-                  <label for="departure">Дата выезда:</label>
-                  <input class="icon-calendar" type="text" name="departure" id="departure" placeholder="4 июля 2016">
-                  
-                </div>
-                <div class="adult-child">
-                  <div class="adult">
-                    <label for="adult-input-numb">Взрослые:</label>
-                    <div class="counter">
-
-                      <button class="ic-minus" type="submit" ><span class="icon-minus"></span></button> <!-- минус -->
-                      <input type="text" value="2" name="input-numb" id="adult-input-numb">
-                      <button class="ic-plus" type="submit" ><span class="icon-plus"></span></button> <!-- плюс -->
-
+              <a class="btn-name" href="#">Поиск гостиницы в Седоне</a>
+              <div class="box-search">
+                <form class="form-search" action="#" method="get">
+                  <div class="form-content">
+                      <label for="arrival">Дата заезда:</label>
+                      <input type="text" name="arrival" id="arrival" placeholder="24 апреля 2016">
+                      <span class="icon-calendar"></span>
+                  </div>
+                  <div class="form-content">
+                      <label for="departure">Дата выезда:</label>
+                      <input type="text" name="departure" id="departure" placeholder="4 июля 2016">
+                      <span class="icon-calendar"></span>
+                  </div>
+                  <div class="adult-child">
+                    <div class="adult">
+                      <label for="adult-input-numb">Взрослые:</label>
+                      <div class="counter">
+                        <button class="ic-minus" type="submit" ><span class="icon-minus"></span></button> <!-- минус -->
+                        <input type="text" value="2" name="input-numb" id="adult-input-numb">
+                        <button class="ic-plus" type="submit" ><span class="icon-plus"></span></button> <!-- плюс -->
+                      </div>
+                    </div>
+                    <div class="child">
+                      <label for="child-input-numb">Дети:</label>
+                      <div class="counter">
+                        <button class="ic-minus" type="submit"><span class="icon-minus"></span></button> <!-- минус -->
+                        <input type="text" value="0" name="input-numb" id="child-input-numb">
+                        <button class="ic-plus" type="submit"><span class="icon-plus"></span></button> <!-- плюс -->
+                      </div>
                     </div>
                   </div>
-                  <div class="child">
-                    <label for="child-input-numb">Дети:</label>
-                    <div class="counter">
-
-                      <button class="ic-minus" type="submit"><span class="icon-minus"></span></button> <!-- минус -->
-                      <input type="text" value="0" name="input-numb" id="child-input-numb">
-                      <button class="ic-plus" type="submit"><span class="icon-plus"></span></button> <!-- плюс -->
-
-                    </div>
-                  </div>
-                </div>
-                <input class="search-button" type="submit" value="Найти">
+                  <input class="search-button" type="submit" value="Найти">
+                </form>
               </div>
-            </form>
+            </div>
           </div>
           <div class="map">
-            <img src="img/map.jpg" width="1200" height="593" alt="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d296306.42166595196!2d-111.70341117447214!3d34.86239861492553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1472638128857" width="1200" height="593" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
         </div>
       </main>
@@ -139,11 +133,9 @@
           <a href="#">#visitsedona</a>
         </div>
         <div class="social">
-
-          <a class="social-btn social-t" href="#">t</a>
-          <a class="social-btn social-f" href="#">f</a>
-          <a class="social-btn social-y" href="#">y</a>
-
+          <a class="social-btn social-twitter" href="#">twitter</a>
+          <a class="social-btn social-fb" href="#">fb</a>
+          <a class="social-btn social-youtube" href="#">youtube</a>
         </div>
         <div class="link">
           <span>Website by</span>
@@ -153,3 +145,6 @@
     </div>
   </body>
 </html>
+
+
+

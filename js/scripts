@@ -1,0 +1,7 @@
+var link = document.querySelector(".btn-search");
+var popup = document.querySelector(".all-form");
+
+link.addEventListener("click", function(event) {
+event.preventDefault();
+popup.classList.toggle("all-form-show");
+});

@@ -12,10 +12,10 @@
       <header class="main-header">
         <nav class="main-navigation">
           <div class="logo">
-            <a href="#"><img src="img/logo.png" width="138" height="70" alt="logo"></a>
+            <a href="index.html"><img src="img/logo.png" width="138" height="70" alt="logo"></a>
           </div>
           <ul class="main-menu">
-            <li><a href="../index.html">Информация</a></li>
+            <li><a href="#">Информация</a></li>
             <li><a href="#">Фото и видео</a></li>
             <li><a href="#">Карта штата</a></li>
             <li><a href="#" class="main-menu active">Гостиницы</a></li>
@@ -27,19 +27,19 @@
           <form action="url#" >
             <fieldset class="form-infrastructure">
               <legend>Инфраструктура</legend> 
-              <div class="selection-infrastructure">
+              <div >
                 <input id="swimpool" type="checkbox" checked/>
-                <label class="selection-label" for="swimpool">Бассейн</label>
-                <input id="parking" type="checkbox" />
-                <label class="selection-label" for="parking">Парковка</label>
+                <label for="swimpool" >Бассейн</label>
+                <input id="parking" type="checkbox" disabled="disabled">
+                <label for="parking">Парковка</label>
                 <input id="wifi" type="checkbox" />
-                <label class="selection-label" for="wifi">Wi-fi</label>
+                <label for="wifi">Wi-fi</label>
               </div>
             </fieldset>
             <fieldset class="form-housing">
               <legend>Тип жилья</legend> 
-              <div class="selection-type">
-                <input id="hotel" type="checkbox" checked/>
+              <div >
+                <input id="hotel" type="checkbox" disabled="disabled" checked/>
                 <label for="hotel">Гостиница</label>
                 <input id="motel" type="checkbox" checked/>
                 <label for="motel">Мотель</label>
@@ -82,7 +82,6 @@
             <div class="sort-inner-up-down">
               <a href="#" >&#9650;</a><!-- стрелка наверх -->
               <a href="#" class="active">&#9660;</a><!-- стрелка вниз -->
-
             </div>
           </div>
           <div class="inner-content clearfix">
@@ -90,7 +89,7 @@
               <img src="img/hotel.jpg" width="135" height="90" alt="hotel">
             </div> 
             <div class="inner-desc">
-              <h3 class="hotel-name">Amara Resort & Spa</h3>
+              <h3 class="hotel-name"><a  href="#">Amara Resort & Spa </a></h3>
               <div class="hotel-type">
                 <span class="type">Гостиница</span>
                 <a class="btn-more" href="#" title="Подробнее">Подробнее</a>
@@ -118,7 +117,7 @@
               <img src="img/motel.jpg" width="135" height="90" alt="motel">
             </div>
             <div class="inner-desc">
-              <h3 class="hotel-name">Desert Quail Inn</h3>
+              <h3 class="hotel-name"><a href="#">Desert Quail Inn</a></h3>
               <div class="hotel-type">
                 <span class="type">Мотель</span>
                 <a class="btn-more" href="#" title="Подробнее">Подробнее</a>
@@ -144,7 +143,7 @@
               <img src="img/apartment.jpg" width="135" height="90" alt="apartments">
             </div>
             <div class="inner-desc">
-              <h3 class="hotel-name">Villas at Poco Diablo</h3>
+              <h3 class="hotel-name"><a href="#">Villas at Poco Diablo</a></h3>
               <div class="hotel-type">
                 <span class="type">Апартаменты</span>
                 <a class="btn-more" href="#" title="Подробнее">Подробнее</a>
@@ -173,15 +172,13 @@
              <a href="#">#visitsedona</a>
           </div>
           <div class="social">
-
-            <a class="social-btn social-t" href="#">t</a>
-            <a class="social-btn social-f" href="#">f</a>
-            <a class="social-btn social-y" href="#">y</a>
+            <a class="social-btn social-twitter" href="#">twitter</a>
+            <a class="social-btn social-fb" href="#">fb</a>
+            <a class="social-btn social-youtube" href="#">youtube</a>
           </div>
           <div class="link">
             <span>Website by</span>
             <a class="btn-link btn-link-logo-academy" href="https://htmlacademy.ru"></a>
-
           </div>
       </footer>
     </div>
