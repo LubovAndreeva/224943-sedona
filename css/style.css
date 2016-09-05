@@ -100,7 +100,6 @@ img {
  text-align: center;
  font-weight: bold;
  line-height: 26px;
-
 }
 .main-navigation li:nth-child(2) {
  margin-right: 20%;
@@ -410,11 +409,7 @@ font-size: 0;
  text-align: center;
  background-image: url("../img/logo-academy.png");
  background-repeat: no-repeat;
-<<<<<<< HEAD
  margin-top: 5px;
-=======
- margin-top: 5px;"
->>>>>>> origin/master
 }
 .btn-link-logo-academy {
   background-image: url("../img/logo-academy.png");
@@ -467,7 +462,6 @@ font-size: 0;
  float: left;
  width: 473px;
 margin-left: 15px;
-
 }
 
 .form-cost: last-child { 
@@ -779,13 +773,7 @@ width: 110px;
 }
 .btn-more:active { 
  background: #5496bd;
-<<<<<<< HEAD
  color: rgba(255, 255, 255, 0.3);
-=======
-}
-.hotel-type a:active { 
-opacity: 0.3;
->>>>>>> origin/master
 }
 
 
@@ -803,16 +791,8 @@ opacity: 0.3;
  background: #604e43;
 }
 .btn-booking:active { 
-<<<<<<< HEAD
  background-color: #503e33;
 color: rgba(255, 255, 255, 0.3);
-=======
- background: #503e33;
-
-}
-.price-booking a:active { 
-opacity: 0.3;
->>>>>>> origin/master
 }
 
 
@@ -1049,10 +1029,8 @@ font-weight: bold;
 color: #000000;
 text-align: center;
 font-size: 14px;
-<<<<<<< HEAD
+
 outline: 0;
-=======
->>>>>>> origin/master
 }
 
 .counter .ic-minus{
@@ -1079,11 +1057,7 @@ line-height: 26px;
  width: 37px;
  height: 36px;
  border: none;
-<<<<<<< HEAD
 outline: 0;
-=======
-
->>>>>>> origin/master
 }
 .counter button:hover {
   background-color: #ebebeb; 
@@ -1152,16 +1126,3 @@ outline: 0;
 :-ms-input-placeholder {
   color:#000000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
