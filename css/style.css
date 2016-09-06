@@ -520,10 +520,10 @@ img {
   margin-left: 15px;
 }
 
-.form-cost: last-child { 
+.form-cost:last-child { 
   float: right;
   margin-right: 0;
-  width: 528px;
+  width: 325px;
 }
 
 fieldset {
@@ -777,7 +777,7 @@ fieldset {
 }
 
 .inner-content {
-  padding: 24px 73px 30px 73px; 
+  padding: 24px 73px 28px 73px; 
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -880,17 +880,19 @@ fieldset {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.rang: last-child { 
+.rang:last-child { 
   display: inline-block;
   vertical-align: middle;
   float: right;
   margin-right: 0;
-  width: 240px;
-  padding: 0px 0px 30px 100px;
+  width: 140px;
   text-align: right;
 }
 
 .rang .stars { 
+  display: inline-block;
+  vertical-align: middle;
+  width: 140px;
   text-align:right;
 }
 
@@ -1163,19 +1165,19 @@ a.btn-name {
   border: 2px solid #e5e5e5;
 }
 
-.icon-minus:hover{
+.counter button:hover .icon-minus {
   color: #000000; 
 }
 
-.icon-minus:active {
+.counter button:active .icon-minus {
   color: #81b3d2;
 }
 
-.icon-plus:hover{
+.counter button:hover .icon-plus {
   color: #000000; 
 }
 
-.icon-plus:active {
+.counter button:active .icon-plus {
   color: #81b3d2;
 }
 
