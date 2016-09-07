@@ -41,7 +41,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 14px;
-  font-family: PT Sans, MS Sans Serif, sans-serif;
+  font-family: "PT Sans", "MS Sans Serif", "sans-serif";
   text-transform: uppercase;
   text-align: center;
   font-weight: normal;
@@ -569,7 +569,8 @@ fieldset {
   width: 2px;
   height: 22px;
   background: #ffffff;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .price-control label {
@@ -1228,22 +1229,45 @@ a.btn-name {
 }
 
 /*анимация формы*/
-@keyframes tumble {
+@-webkit-keyframes tumble {
   40% { 
-    transform: translateY(-10px); 
+    -webkit-transform: translateY(-10px); 
+            transform: translateY(-10px); 
   }
   60% { 
-    transform: translateY(30px); 
+    -webkit-transform: translateY(30px); 
+            transform: translateY(30px); 
   }
   80% { 
-    transform: translateY(10px); 
+    -webkit-transform: translateY(10px); 
+            transform: translateY(10px); 
   }
   100% { 
-    transform: translateY(0); 
+    -webkit-transform: translateY(0); 
+            transform: translateY(0); 
+  }
+}
+@keyframes tumble {
+  40% { 
+    -webkit-transform: translateY(-10px); 
+            transform: translateY(-10px); 
+  }
+  60% { 
+    -webkit-transform: translateY(30px); 
+            transform: translateY(30px); 
+  }
+  80% { 
+    -webkit-transform: translateY(10px); 
+            transform: translateY(10px); 
+  }
+  100% { 
+    -webkit-transform: translateY(0); 
+            transform: translateY(0); 
   }
 }
 
  .box-search-show {
   display: block;
-  animation: tumble 0.8s;
+  -webkit-animation: tumble 0.8s;
+          animation: tumble 0.8s;
  } 
